@@ -166,12 +166,14 @@ ACTION: Use Skill tool BEFORE responding
 
 ```bash
 # Clone
-git clone https://github.com/parcadei/continuous-claude.git
-cd continuous-claude/opc
+git clone https://github.com/parcadei/Continuous-Claude-v3.git
+cd Continuous-Claude-v3/opc
 
 # Run setup wizard (12 steps)
 uv run python scripts/setup/wizard.py
 ```
+
+> **Note:** The `pyproject.toml` is in `opc/`. Always run `uv` commands from the `opc/` directory.
 
 ### What the Wizard Does
 
